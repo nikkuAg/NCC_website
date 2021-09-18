@@ -1,0 +1,76 @@
+.ncc-div-fs{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.btn{
+  color: #f2f2f2 !important;
+}
+.btn-primary-1{
+  background-color: #189ab4;
+}
+.btn-primary-1:hover{
+  background-color: #003665;
+}
+.btn-primary-2:hover{
+  background-color: #003665;
+}
+.btn-primary-2{
+  background-color: #003665;
+}
+/* Team */
+.cadets{
+  margin-top: 130px;
+}
+.cadets .row .col img{
+  width: 240px;
+  height: 230px;
+}
+.cadets .row .col div{
+  width: 240px;
+}
+.teams .row .col img{
+  width: 240px;
+  height: 230px;
+}
+.teams .row .col div{
+  width: 240px;
+}
+
+@media only screen and (min-width:1000px){
+  .row1{
+    margin:0px 158px;
+  }
+  .row2{
+    margin:0px -90px;
+  }
+}
+@media only screen and (max-width:768px){
+  .cadets .row .col img{
+    width: 261px;
+    height: 230px;
+  }
+  .cadets .row .col div{
+    width: 261px;
+  }
+  .teams .row .col img{
+    width: 261px;
+    height: 230px;
+  }
+  .teams .row .col div{
+    width: 261px;
+  }
+}
+@media only screen and (min-width:570px) and (max-width:767px){
+  
+
+}
+@media only screen and (min-width:530px) and (max-width:570px){
+  
+}
+
+#year19{
+  display: none;
+}
+#year20{
+  display: none;
+}

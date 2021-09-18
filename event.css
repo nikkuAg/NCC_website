@@ -1,0 +1,84 @@
+/* Events */
+.events{
+  margin-top: 150px;
+}
+
+.events .row .col img{
+  width: 261px;
+  height: 262px;
+}
+
+.events .row .col img:hover{
+  box-shadow: 0 10px 10px rgb(154 160 185 / 100%), 0 15px 40px rgb(166 173 201 / 20%);
+}
+
+.modal-body img{
+  width: 600px !important;
+  height: 600px !important;
+}
+
+.upevents .row .col img{
+  width: 261px;
+  height: 262px;
+}
+
+.upevents .row .col img:hover{
+  box-shadow: 0 10px 10px rgb(154 160 185 / 100%), 0 15px 40px rgb(166 173 201 / 20%);
+}
+.carousel-indicators [data-bs-target]{
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.carousel-indicators{
+  bottom: -55px;
+  /* left: -173px;
+  right: -173px; */
+}
+.carousel-indicators button{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.carousel-item img{
+  width: 330px;
+  height: 370px;
+}
+.carousel-item img:hover{
+  box-shadow: 0 10px 10px rgb(154 160 185 / 100%), 0 15px 40px rgb(166 173 201 / 20%);
+}
+@media only screen and (max-width:767px){
+  .events .row .col img{
+    width: 300px;
+    height: 270px;
+  }
+  .upevents .row .col img{
+    width: 300px;
+    height: 270px;
+  }
+  .modal-body img{
+    width: 310px !important;
+    height: 350px !important;
+  }
+  .modal-dialog{
+    max-width: 345px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width:536px){
+  .modal-body img{
+    width: 288px !important;
+    height: 350px !important;
+  }
+  .modal-dialog{
+    max-width: 322px;
+    margin: 0px auto;
+  }
+}
+
+@media only screen and (min-width:767px){
+  .modal-dialog{
+    max-width: 635px;
+  }
+}
